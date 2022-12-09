@@ -1,0 +1,36 @@
+:root{
+    --primary: #FEE622;
+    --secondary: #F49237;
+    --third: #DDDDBB;
+    --fourth: #F6522C;
+}
+
+.one-page{
+    height: 100vh;
+    width: 100%;
+}
+
+.my-bg-primary{
+    background-color: var(--primary);
+}
+
+.my-bg-secondary{
+    background-color: var(--secondary);
+}
+
+.my-bg-third{
+    background-color: var(--third);
+}
+
+/***
+ Specific
+ */
+.side-page{
+    background-color: var(--primary);
+    height: 100%;
+}
+
+.footer{
+    height: 30vh;
+    background-color: var(--secondary);
+}
