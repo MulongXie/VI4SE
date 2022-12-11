@@ -1,9 +1,12 @@
 :root{
-    --primary: #FEE622;
-    --secondary: #F49237;
-    --third: #DDDDBB;
-    --fourth: #F6522C;
-    --blue: #8FC1E3
+    --yellow: #FEE622;
+    --orange: #F49237;
+    --grey: #DBDBDB;
+    --red: #F6522C;
+    --blue: #8FC1E3;
+    --purple: #760fcb;
+    --black: #262626;
+    --pink: #b369b8;
 }
 
 .one-page{
@@ -12,19 +15,32 @@
 }
 
 .my-bg-primary{
-    background-color: var(--primary);
+    background-color: var(--purple);
 }
 
 .my-bg-secondary{
-    background-color: var(--secondary);
+    background-color: whitesmoke;
 }
 
 .my-bg-third{
-    background-color: var(--third);
+    background-color: var(--grey);
+}
+
+.my-bg-grad{
+    background: rgb(179,105,184);
+    background: linear-gradient(90deg, rgba(179,105,184,0.9948354341736695) 0%, rgba(196,70,183,1) 32%, rgba(203,15,177,1) 71%, rgba(170,42,228,1) 100%);
+}
+
+.my-font-color-purple{
+    color: var(--purple);
+}
+
+.my-font-color-white{
+    color: whitesmoke;
 }
 
 .colorful{
-    color: var(--fourth)
+    color: var(--pink)
 }
 
 /* Font*/
@@ -33,69 +49,45 @@
     src: url("plugin/font/RubikVinyl-Regular.ttf");
 }
 
-/* Curve bottom */
-.custom-shape-divider-bottom-1670559023 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1670559023 svg {
-    position: relative;
-    display: block;
-    width: calc(107% + 1.3px);
-    height: 200px;
-}
-
-.custom-shape-divider-bottom-1670559023 .shape-fill {
-    fill: #F6522C;
-}
-
-/* Curve top*/
-.custom-shape-divider-top-1670560182 {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1670560182 svg {
-    position: relative;
-    display: block;
-    width: calc(127% + 1.3px);
-    height: 171px;
-}
-
-.custom-shape-divider-top-1670560182 .shape-fill {
-    fill: #F6522C;
+@font-face {
+    font-family: unbounded;
+    src: url("plugin/font/Unbounded-VariableFont_wght.ttf");
 }
 
 /***
  Specific
- */
+*/
 .side-page{
-    background-color: var(--primary);
     height: 100%;
 }
 
 .footer{
     height: 30vh;
-    background-color: var(--secondary);
 }
 
-.title-page{
-    font-family: rubik, serif;
+.title{
     font-size: 60px;
+    margin-top: 100px;
+    font-family: unbounded, serif;
+    font-weight: bold;
+}
+
+.title-card{
+    position: absolute;
+    height: 400px;
+    width: 1200px;
+    right: 150px;
+    text-align: center;
+}
+
+.half-page-divider{
+    width: 100%;
+    height: 50vh;
 }
 
 /***
  Elements
 */
 #cover{
-    padding-top: 30vh;
+    position: relative;
 }
