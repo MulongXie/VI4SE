@@ -3,6 +3,7 @@
     --secondary: #F49237;
     --third: #DDDDBB;
     --fourth: #F6522C;
+    --blue: #8FC1E3
 }
 
 .one-page{
@@ -22,6 +23,58 @@
     background-color: var(--third);
 }
 
+.colorful{
+    color: var(--fourth)
+}
+
+/* Font*/
+@font-face {
+    font-family: rubik;
+    src: url("plugin/font/RubikVinyl-Regular.ttf");
+}
+
+/* Curve bottom */
+.custom-shape-divider-bottom-1670559023 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670559023 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1670559023 .shape-fill {
+    fill: #F6522C;
+}
+
+/* Curve top*/
+.custom-shape-divider-top-1670560182 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1670560182 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 171px;
+}
+
+.custom-shape-divider-top-1670560182 .shape-fill {
+    fill: #F6522C;
+}
+
 /***
  Specific
  */
@@ -33,4 +86,16 @@
 .footer{
     height: 30vh;
     background-color: var(--secondary);
+}
+
+.title-page{
+    font-family: rubik, serif;
+    font-size: 60px;
+}
+
+/***
+ Elements
+*/
+#cover{
+    padding-top: 30vh;
 }
