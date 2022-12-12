@@ -9,6 +9,10 @@
     --pink: #b369b8;
 }
 
+html body{
+    font-family: unbounded, serif;
+}
+
 .one-page{
     height: 100vh;
     width: 100%;
@@ -57,6 +61,40 @@
 /***
  Specific
 */
+/* navigation */
+.my-navbar{
+    position: fixed;
+    z-index: 100;
+    top: 100px;
+    background-color: #760fcb;
+    padding: 0;
+}
+
+.navbar-brand{
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: var(--grey);
+    color: var(--pink);
+    font-family: unbounded, serif;
+    height: 60px;
+    padding-top: 17px;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover{
+    color: var(--purple);
+}
+
+.nav-link{
+    color: whitesmoke;
+}
+
+.nav-link:hover{
+    color: var(--pink);
+}
+
 .side-page{
     height: 100%;
 }
@@ -66,7 +104,7 @@
 }
 
 .title{
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 100px;
     font-family: unbounded, serif;
     font-weight: bold;
@@ -74,8 +112,8 @@
 
 .title-card{
     position: absolute;
-    height: 400px;
-    width: 1200px;
+    height: 300px;
+    width: 40vw;
     right: 150px;
     text-align: center;
 }
@@ -85,9 +123,23 @@
     height: 50vh;
 }
 
+.bkg-img{
+    opacity: 0.3;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 /***
  Elements
 */
 #cover{
     position: relative;
+    z-index: 10;
+    height: 100vh;
+}
+
+#architecture{
+    position: relative;
+    z-index: 10;
 }
