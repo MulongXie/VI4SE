@@ -43,6 +43,10 @@ html body{
     color: whitesmoke;
 }
 
+.my-border-purple{
+    border: var(--purple) solid 2px;
+}
+
 .colorful{
     color: var(--pink)
 }
@@ -56,6 +60,30 @@ html body{
 @font-face {
     font-family: unbounded;
     src: url("plugin/font/Unbounded-VariableFont_wght.ttf");
+}
+
+/* shapes */
+.triangle-up {
+    width: 0;
+    height: 0;
+}
+
+.trapezoid-mid{
+    height: 0;
+    width: 400px;
+}
+
+.trapezoid-bottom{
+    height: 0;
+    width: 600px;
+}
+
+.shape{
+    margin-top: 20px;
+    border-bottom: 160px solid var(--pink); /* shape height */
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    box-shadow: rgba(118, 15, 203, 0.5) 0 15px 10px -10px;
 }
 
 /***
@@ -172,7 +200,13 @@ html body{
 }
 
 #architecture{
-    height: 120vh;
+    /*height: 120vh;*/
     position: relative;
     z-index: 10;
+    padding-bottom: 100px;
+}
+
+#container-arch{
+    padding-top: 300px;
+    text-align: -webkit-center;
 }
