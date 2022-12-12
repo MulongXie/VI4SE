@@ -190,6 +190,14 @@ html body{
     padding: 50px;
 }
 
+.arch-description{
+    padding-top: 30px;
+    height: 33%;
+    color: var(--pink);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
 /***
  Elements
 */
@@ -207,6 +215,6 @@ html body{
 }
 
 #container-arch{
-    padding-top: 300px;
+    padding-top: 350px;
     text-align: -webkit-center;
 }
