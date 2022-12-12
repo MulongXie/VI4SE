@@ -188,7 +188,13 @@ html body{
     height: 33%;
     color: var(--pink);
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 35px;
+    /*text-shadow: 0 2px 2px var(--purple);*/
+}
+
+.arch-pyramid{
+    border: solid var(--purple) 1px;
+    padding: 30px;
 }
 
 .detail-container{
@@ -221,6 +227,38 @@ html body{
     font-size: 50px;
 }
 
+/* card */
+.card {
+    height: 350px;
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    border: 4px solid #b0215e;
+    margin-bottom: 20px;
+    background-image: url('https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+    background-size: cover;
+}
+
+.card-inner {
+    height: 40%;
+    background: white;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    text-shadow: 0 2px 2px var(--pink);
+    margin-bottom: 5px;
+}
+
+.card-author{
+    color: #b0215e;
+    text-align: center;
+    font-size: 15px;
+}
+
 /***
  Elements
 */
@@ -234,7 +272,7 @@ html body{
     /*height: 120vh;*/
     position: relative;
     z-index: 10;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #container-arch{
