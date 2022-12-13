@@ -293,7 +293,7 @@ html body{
 }
 
 .card:hover{
-    border: 4px solid var(--purple);
+    border: 4px solid var(--pink);
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -320,6 +320,16 @@ html body{
     padding-top: 350px;
     text-align: -webkit-center;
     margin-bottom: 50px;
+}
+
+#vitech-page-content{
+    background-image: url("public/graphics/vi-bkg.svg");
+    background-size: cover;
+}
+
+#inf-page-content{
+    background-image: url("public/graphics/infrastructure-bkg.svg");
+    background-size: cover;
 }
 
 #footer{
