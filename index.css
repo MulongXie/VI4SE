@@ -210,14 +210,22 @@ html body{
 .arch-description{
     padding-top: 30px;
     height: 33%;
-    color: var(--pink);
-    font-weight: bolder;
-    font-size: 35px;
     /*text-shadow: 0 2px 2px var(--purple);*/
 }
 
+.arch-description h2{
+    color: var(--pink);
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.arch-description span{
+    color: var(--purple);
+    font-weight: bolder;
+}
+
 .arch-pyramid{
-    border: solid var(--purple) 1px;
+    /*border: solid var(--purple) 1px;*/
     padding: 30px;
 }
 
@@ -303,7 +311,9 @@ html body{
     /*height: 120vh;*/
     position: relative;
     z-index: 10;
-    padding-bottom: 50px;
+    padding-bottom: 180px;
+    background-image: url("public/graphics/arch-bkg.svg");
+    background-size: cover;
 }
 
 #container-arch{
