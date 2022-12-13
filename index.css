@@ -110,6 +110,10 @@ html body{
     color: whitesmoke;
 }
 
+.main-section{
+    padding: 0;
+}
+
 /***
  Specific
 */
@@ -248,27 +252,24 @@ html body{
     height: 100%;
 }
 
-.side-page-content{
-    background-color: var(--purple);
-    position: relative;
-    z-index: 10;
-    padding: 50px;
-}
-
 .side-page-img{
     padding: 0;
 }
 
 .detail-content-container{
-    /*background-color: floralwhite;*/
     height: 100%;
     padding: 20px;
+    position: relative;
+    z-index: 10;
+    background-color: var(--purple);
+    margin: 0;
 }
 
 .detail-content-title{
     color: floralwhite;
     font-weight: bolder;
     font-size: 50px;
+    text-align: center;
 }
 
 .detail-content-subcontainer{
@@ -349,11 +350,17 @@ html body{
 #vitech-page-content{
     background-image: url("public/graphics/vi-bkg.svg");
     background-size: cover;
+    background-color: #b369b8;
+    padding: 40px;
 }
 
 #inf-page-content{
     background-image: url("public/graphics/infrastructure-bkg.svg");
     background-size: cover;
+}
+
+#app{
+    padding: 0;
 }
 
 #footer{
