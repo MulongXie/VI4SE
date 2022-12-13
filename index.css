@@ -110,9 +110,6 @@ html body{
     color: whitesmoke;
 }
 
-.main-section{
-    padding: 0;
-}
 
 /***
  Specific
@@ -191,13 +188,12 @@ html body{
 .card-vi{
     height: 300px;
     width: 60vw;
-    background-color: var(--black);
+    background-color: var(--pink);
     position: absolute;
     left: 50px;
     top: -100px;
     color: whitesmoke;
-    padding-top: 100px;
-    padding-left: 50px;
+    padding: 50px 0 0;
 }
 
 .card-arch{
@@ -242,27 +238,17 @@ html body{
     padding: 30px;
 }
 
-.detail-container{
-    position: relative;
-    height: 100%;
-}
-
-.detail-bkg-img{
-    position: absolute;
-    height: 100%;
-}
-
-.side-page-img{
-    padding: 0;
+/* Detail contents*/
+.detail-section{
+    background-color: var(--purple);
+    padding0;
 }
 
 .detail-content-container{
     height: 100%;
-    padding: 20px;
     position: relative;
     z-index: 10;
-    background-color: var(--purple);
-    margin: 0;
+    padding: 0 100px 0;
 }
 
 .detail-content-title{
@@ -270,6 +256,7 @@ html body{
     font-weight: bolder;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .detail-content-subcontainer{
@@ -347,21 +334,22 @@ html body{
     margin-bottom: 50px;
 }
 
-#vitech-page-content{
+#app{
+}
+
+#vitech{
     background-image: url("public/graphics/vi-bkg.svg");
     background-size: cover;
     background-color: #b369b8;
-    padding: 40px;
+    padding-top: 150px;
 }
 
-#inf-page-content{
+#infrastructure{
     background-image: url("public/graphics/infrastructure-bkg.svg");
     background-size: cover;
+    padding-top: 150px;
 }
 
-#app{
-    padding: 0;
-}
 
 #footer{
     height: 300px;
