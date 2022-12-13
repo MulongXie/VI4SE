@@ -31,8 +31,10 @@ html body{
 }
 
 .my-bg-grad{
-    background: rgb(179,105,184);
-    background: linear-gradient(90deg, rgba(179,105,184,0.9948354341736695) 0%, rgba(196,70,183,1) 32%, rgba(203,15,177,1) 71%, rgba(170,42,228,1) 100%);
+    /*background: rgb(179,105,184);*/
+    /*background: linear-gradient(90deg, rgba(179,105,184,0.9948354341736695) 0%, rgba(196,70,183,1) 32%, rgba(203,15,177,1) 71%, rgba(170,42,228,1) 100%);*/
+    background: rgb(183,105,184);
+    background: linear-gradient(90deg, rgba(183,105,184,0.9948354341736695) 0%, rgba(208,120,25,1) 35%, rgba(203,15,15,1) 73%, rgba(217,42,228,1) 100%);
 }
 
 .my-font-color-purple{
@@ -68,14 +70,29 @@ html body{
     height: 0;
 }
 
+.shape-icon-up{
+    top: 60px;
+    left:-32px;
+}
+
 .trapezoid-mid{
     height: 0;
     width: 400px;
 }
 
+.shape-icon-mid{
+    top: 39px;
+    left: 65px;
+}
+
 .trapezoid-bottom{
     height: 0;
     width: 600px;
+}
+
+.shape-icon-bottom{
+    top: 30px;
+    left: 168px;
 }
 
 .shape{
@@ -84,6 +101,13 @@ html body{
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     box-shadow: rgba(118, 15, 203, 0.5) 0 15px 10px -10px;
+    position: relative;
+}
+
+.shape-icon{
+    position: absolute;
+    font-size: 60px;
+    color: whitesmoke;
 }
 
 /***
@@ -150,7 +174,7 @@ html body{
 
 .half-page-divider{
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 
 .bkg-img-cover{
