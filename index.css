@@ -179,7 +179,7 @@ html body{
 }
 
 .bkg-img-cover{
-    opacity: 0.3;
+    opacity: 0.1;
     width: 100%;
     /*position: fixed;*/
     /*z-index: -1;*/
@@ -240,7 +240,7 @@ html body{
 
 /* Detail contents*/
 .detail-section{
-    background-color: var(--purple);
+    /*background-color: var(--purple);*/
     padding:0;
 }
 
@@ -298,7 +298,7 @@ html body{
     margin-bottom: 5px;
 }
 
-.card-author{
+.card-subtitle{
     color: #b0215e;
     text-align: center;
     font-size: 15px;
@@ -335,6 +335,7 @@ html body{
 }
 
 #app{
+    background-color: var(--purple);
 }
 
 #vitech{
@@ -348,6 +349,7 @@ html body{
     background-image: url("public/graphics/infrastructure-bkg.svg");
     background-size: cover;
     padding-top: 150px;
+    background-color: var(--orange);
 }
 
 
