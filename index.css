@@ -333,8 +333,10 @@ html body{
 }
 
 #footer{
-    height: 30vh;
+    height: 300px;
     position: relative;
     z-index: 10;
     background-color: whitesmoke;
+    background-image: url("public/graphics/footer-bkg.svg");
+    background-size: cover;
 }
