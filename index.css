@@ -241,7 +241,7 @@ html body{
 /* Detail contents*/
 .detail-section{
     background-color: var(--purple);
-    padding0;
+    padding:0;
 }
 
 .detail-content-container{
@@ -260,12 +260,12 @@ html body{
 }
 
 .detail-content-subcontainer{
-    background-color: floralwhite;
+    /*background-color: floralwhite;*/
     padding: 30px 30px 30px;
 }
 
 .detail-content-subtitle{
-    color: var(--purple);
+    color: floralwhite;
     font-weight: bolder;
     font-size: 30px;
 }
@@ -323,7 +323,7 @@ html body{
     /*height: 120vh;*/
     position: relative;
     z-index: 10;
-    padding-bottom: 180px;
+    padding-bottom: 280px;
     background-image: url("public/graphics/arch-bkg.svg");
     background-size: cover;
 }
