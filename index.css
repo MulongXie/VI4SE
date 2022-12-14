@@ -329,6 +329,43 @@ html body{
     position: absolute;
 }
 
+/* Modal */
+.modal-content{
+    background: var(--purple);
+    color: whitesmoke;
+}
+
+.modal-my-caption{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 9px;
+}
+
+.modal-title{
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.modal-img-1{
+    max-width: 90%;
+}
+
+.modal-img-1-5{
+    max-width: 66%;
+}
+
+.modal-img-2{
+    max-width: 48%;
+}
+
+.modal-img-3{
+    max-width: 32%;
+}
+
+.modal-footer{
+    border-top: var(--orange);
+}
+
 /***
  Elements
 */
